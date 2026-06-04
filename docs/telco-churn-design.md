@@ -174,4 +174,4 @@ CLI-скрипт, `python scripts/predict.py`. Контракт — см. §7.
 
 ## 12. Зависимости (`requirements.txt`)
 
-`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `joblib`, `jupyter`, `pytest`. Версии пинуем под текущее окружение (sklearn 1.5.2, pandas 2.2.3, numpy 2.1.1).
+`pandas`, `numpy`, `scikit-learn`, `matplotlib`, `joblib`, `jupyter`, `pytest`. Версии пинуем под окружение (pandas 2.0.3, numpy 1.26.4, sklearn 1.3.2, matplotlib 3.7, joblib 1.3, jupyter 1.0, pytest 8.0)
