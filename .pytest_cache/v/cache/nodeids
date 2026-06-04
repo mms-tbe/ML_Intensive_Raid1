@@ -1,0 +1,10 @@
+[
+  "tests/test_predict.py::test_predict_new_schema_and_id_reattach",
+  "tests/test_preprocessing.py::test_build_pipeline_fits_and_predicts_proba",
+  "tests/test_preprocessing.py::test_charges_per_month_handles_zero_tenure",
+  "tests/test_preprocessing.py::test_n_services_counts_active_with_traps",
+  "tests/test_preprocessing.py::test_numeric_coercer_blanks_to_nan_and_float",
+  "tests/test_preprocessing.py::test_tenure_bucket_edges",
+  "tests/test_threshold.py::test_select_threshold_fallback_when_target_unreachable",
+  "tests/test_threshold.py::test_select_threshold_meets_recall_and_maximizes_precision"
+]
