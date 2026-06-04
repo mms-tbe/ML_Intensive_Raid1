@@ -143,12 +143,19 @@ Confusion matrix (тест, 1409 клиентов, порог 0.259):
 Бизнес-перевод и разбор по срезам — в [`results/results.md`](results/results.md).
 
 ## Как запустить
-
+**на Windows** 
 ```bash
 pip install -r requirements.txt
 python scripts/train.py     # обучение, выбор порога, сохранение артефактов в results/
 python scripts/predict.py   # предсказание на data/new_customers.csv -> results/predictions.csv
 python -m pytest -v         # тесты (трансформеры, порог, инференс)
+```
+**на macOS**
+```bash
+python3 -m pip install -r requirements.txt
+python3 scripts/train.py     # обучение, выбор порога, сохранение артефактов в results/
+python3 scripts/predict.py   # предсказание на data/new_customers.csv -> results/predictions.csv
+python3 -m pytest -v         # тесты (трансформеры, порог, инференс)
 ```
 
 ## Структура проекта
